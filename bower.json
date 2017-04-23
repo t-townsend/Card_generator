@@ -1,0 +1,22 @@
+{
+  "name": "ACG",
+  "homepage": "https://github.com/t-townsend/javascript_Assignment",
+  "authors": [
+    "Trista Townsend <tristatownsend@gmail.com>"
+  ],
+  "description": "tutorial",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "font-awsome#^4.7.0",
+    "angular": "^1.6.4"
+  }
+}
