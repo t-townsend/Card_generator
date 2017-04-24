@@ -252,11 +252,29 @@
        </div>
      </div>
    </div>
-
-      <script src="app.js"></script>
       <script src="bower_components/jquery/dist/jquery.min.js"></script>
       <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
       <script src="bower_components/angular/angular.min.js"></script>
+      <script>
+        'use strict';
+        angular.module('myApp', [])
+        .controller('BusinessCardController', function($scope){
+          $scope.user = {
+            name: 'Samurai Jack',
+            occupation: 'Samurai',
+            email: 'jack@example.com',
+            link1: 'www.samuraijack.org',
+            tusername:'samurai1337',
+            companylogo: 'http://pm1.narvii.com/6014/849e84ef863008ceafa3fbcc989507c24dc1283e_128.jpg',
+            color1: '#c0c0c0',
+            color2: 'white',
+            textcolor1: '#287cc2',
+            textcolor2: '#666',
+            fusername:'samuraijack',
+            gusername:'+SamuaraiJack1337'
+          }
+        });
+      </script>
 
   </body>
 </html>
